@@ -1,0 +1,170 @@
+
+@charset "UTF-8";
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  background-color: #fff;
+  color: #333;
+}
+
+.logo img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: -50px;
+  width: 50%;
+}
+
+
+.logo-head img{
+  position:absolute;
+  top:0;
+  left:30px;
+  height:18%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    float: left;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: deeppink;
+}
+
+a{
+    text-decoration: none;
+    color: deeppink;
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.about-us {
+	position:absolute;
+    padding: 30px 0;
+    background-color: #FFF5EE;
+    margin-top: 55px;
+    height: 70%;
+}
+.about-us .h1 {
+    font-size: 50px;
+    color: #848484;
+    text-align: center;
+}
+.about-us .responsive-paragraph {
+    color: #848484;
+}
+
+.container .welcome-text {
+	color: #848484;
+}
+
+.logout {
+	position:relative;
+    padding: 30px 0;
+    background-color: #FFF5EE;
+    margin-top: 55px;
+    height: 70%;
+	color: #848484;
+}
+
+.contents {
+	position:absolute;
+    padding: 30px 0;
+    background-color: #FFF5EE;
+    margin-top: 55px;
+    height: 70%;
+    width: 100%;
+}
+.custom-btn {
+  border: none;
+  color: #808080;
+}
+.custom-btn:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  direction: rtl;
+  z-index: -1;
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+}
+.custom-btn:hover {
+  color: #C0C0C0;
+}
+.custom-btn:hover:after {
+  left: auto;
+  right: 0;
+  width: 100%;
+}
+.custom-btn:active {
+  top: 2px;
+}
+
+#logo-home {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+/*   border: 1px solid black; /*This is just to see where the div container is */ 
+}
+
+img {
+  display: inline-block;
+  float: none;
+  padding: 10px;
+  width: 40%;
+  height:70%;
+  
+}
+
+.logo1 {
+	position: relative;
+	top: -280px;
+}
+
+.logo2 {
+	position: relative;
+	right: -40px;
+	width:800px;
+	height:700px;
+}
